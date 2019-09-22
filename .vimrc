@@ -13,6 +13,10 @@ set noshowmode
 "Additional settings for fzf
 set rtp+=~/.fzf
 
+"This is a fix for python identation because .vimrc setting seems won't work
+filetype indent on
+filetype plugin on
+
 ",c to comment the line
 map ,c I#<Esc>
 ",g goto to definition
