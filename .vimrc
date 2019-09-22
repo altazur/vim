@@ -20,7 +20,7 @@ map ,g :YcmCompleter GoToDefinitionElseDeclaration<CR>
 "Run the current python script(can be extended to run different typefile in different ways, not only the *.py
 map ,r !python3 %<Enter>
 "FZF
-map ,f :Files ~<Enter>
+map ,f :Files ~/Документы<Enter>
 
 "jedi-vim settings
 let g:jedi#show_call_signatures = "0"
