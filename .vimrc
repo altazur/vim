@@ -25,6 +25,8 @@ map ,g :YcmCompleter GoToDefinitionElseDeclaration<CR>
 map ,r !python3 %<Enter>
 "FZF
 map ,f :Files ~/Документы<Enter>
+"Set html django templates syntax for current vim session
+map <S-t> :set filetype=htmldjango<Enter>
 
 "jedi-vim settings
 let g:jedi#show_call_signatures = "0"
